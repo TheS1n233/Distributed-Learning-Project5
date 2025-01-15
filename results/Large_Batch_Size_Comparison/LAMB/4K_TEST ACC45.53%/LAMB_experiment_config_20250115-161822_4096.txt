@@ -1,0 +1,5 @@
+Experiment Configuration:
+Optimizer: LAMB
+Hyperparameters: {'lr': 0.008, 'weight_decay': 0.1, 'patience': 100}
+Number of epochs: 150
+Timestamp: 20250115-161822
