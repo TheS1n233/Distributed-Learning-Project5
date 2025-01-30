@@ -89,11 +89,10 @@ This project investigates optimization strategies for distributed deep learning 
 | Large-Batch (LARS/LAMB) | **50.96%** | Moderate |
 | LocalSGD (Best J=32) | **52.86%** | Moderate |
 | Inner-Outer Loop (Best J=32) | **53.82%** | **Higher efficiency** |
-| Adaptive LocalSGD | **53.47%** | **84% improvement** |
+| Adaptive LocalSGD | **53.47%** | **improvement** |
 
 ### **Key Findings**
 - **LARS & LAMB** improve stability but suffer accuracy drop at **batch size 8192**.
-- **Increasing workers (K)** does not always improve accuracy due to synchronization overhead.
 - **Inner-Outer Loop** optimization offers additional stability over LocalSGD.
 - **Adaptive LocalSGD** significantly improves communication efficiency without reducing accuracy.
 
