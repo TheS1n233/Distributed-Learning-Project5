@@ -1,6 +1,0 @@
-Experiment Configuration:
-Optimizer: localSGD
-K = 2; J = 4
-Hyperparameters: {'lr': 0.01, 'weight_decay': 0.001, 'momentum': 0.9}
-Number of epochs: 150
-Timestamp: 20250112-205753

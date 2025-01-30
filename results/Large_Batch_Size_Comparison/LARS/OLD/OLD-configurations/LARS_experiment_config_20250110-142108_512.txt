@@ -1,5 +1,0 @@
-Experiment Configuration:
-Optimizer: LARS
-Hyperparameters: {'lr': 0.028284271247461905, 'weight_decay': 0.001, 'momentum': 0.9, 'patience': 100}
-Number of epochs: 150
-Timestamp: 20250110-142108

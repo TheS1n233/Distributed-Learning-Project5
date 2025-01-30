@@ -1,6 +1,0 @@
-Experiment Configuration:
-Optimizer: LARS
-Batch Size: 2048
-Hyperparameters: {'lr': 0.05656854249492381, 'weight_decay': 0.001}
-Number of epochs: 150
-Timestamp: 20250119-215702
