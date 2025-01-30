@@ -15,6 +15,8 @@ This project investigates optimization strategies for distributed deep learning 
   - SGDM achieved **55.24%** test accuracy.
   - AdamW achieved **52.67%** test accuracy.
   - SGDM showed faster convergence but risked overfitting.
+- **How to run:**
+  - Run the code without params given from the terminal (args)
 
 ### **2. Large-Batch Training**
 - **Objective:** Evaluate large-batch optimizers' scalability.
@@ -27,6 +29,10 @@ This project investigates optimization strategies for distributed deep learning 
   - **LARS & LAMB** performed better at larger batch sizes.
   - Accuracy declined significantly beyond batch size **4096**.
   - SGDM and AdamW were less stable at large batch sizes.
+- **How to run:**
+  - Run the code using command line arguments:
+    - `batch_size`: choose between `128, 256, 512, 1024, 2048, 4096, 8192`
+    - `optimizer`: choose between `'SGDM', 'AdamW', 'LARS', 'LAMB'`
 
 ### **3. LocalSGD Training**
 - **Objective:** Explore local update strategies to reduce communication overhead.
@@ -38,6 +44,8 @@ This project investigates optimization strategies for distributed deep learning 
   - Best accuracy: **52.86% at K=2, J=32**.
   - Increasing J reduced communication time but degraded convergence.
   - Higher K values introduced synchronization challenges.
+- **How to run:**
+  - Run the code without params given from the terminal (args)
 
 ### **4. Exploring Advanced Distributed Optimizers (Inner-Outer Loop)**
 - **Objective:** Evaluate optimization using a two-level update mechanism.
@@ -52,6 +60,8 @@ This project investigates optimization strategies for distributed deep learning 
   - Best accuracy: **53.82% at K=2, J=32**.
   - Higher J further reduced communication time.
   - Inner-outer loop improved stability over standard LocalSGD.
+- **How to run:**
+  - Run the code without params given from the terminal (args)
 
 ### **5. Adaptive LocalSGD (Proposed Method)**
 - **Objective:** Dynamically adjust local steps (J) based on validation loss.
@@ -66,6 +76,8 @@ This project investigates optimization strategies for distributed deep learning 
   - Best accuracy: **53.47% at K=2, J=4**.
   - Up to **84% reduction in communication overhead**.
   - Comparable accuracy to fixed LocalSGD with improved efficiency.
+- **How to run:**
+  - Run the code without params given from the terminal (args)
 
 ---
 
