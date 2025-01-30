@@ -95,13 +95,13 @@ This project investigates optimization strategies for distributed deep learning 
 ## **Experiment Results and Analysis**
 
 ### **Performance Summary**
-| Method | Best Accuracy | Communication Time Reduction |
-|--------|-------------|---------------------------|
-| Centralized (SGDM) | **55.24%** | - |
-| Large-Batch (LARS/LAMB) | **50.96%** | Moderate |
-| LocalSGD (Best J=32) | **52.86%** | Moderate |
-| Inner-Outer Loop (Best J=32) | **53.82%** | **Higher efficiency** |
-| Adaptive LocalSGD | **53.47%** | **improvement** |
+| Method | Best Accuracy | 
+|--------|-------------|
+| Centralized (SGDM) | **55.24%** | 
+| Large-Batch (LARS/LAMB) | **50.96%** | 
+| LocalSGD (Best J=32) | **52.86%** |
+| Inner-Outer Loop (Best J=32) | **53.82%** | 
+| Adaptive LocalSGD | **53.47%** | 
 
 ### **Key Findings**
 - **LARS & LAMB** improve stability but suffer accuracy drop at **batch size 8192**.
