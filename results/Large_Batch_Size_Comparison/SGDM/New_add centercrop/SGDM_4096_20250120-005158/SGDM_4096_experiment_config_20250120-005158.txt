@@ -1,0 +1,6 @@
+Experiment Configuration:
+Optimizer: SGDM
+Batch Size: 4096
+Hyperparameters: {'lr': 0.08, 'weight_decay': 0.001, 'momentum': 0.9}
+Number of epochs: 150
+Timestamp: 20250120-005158

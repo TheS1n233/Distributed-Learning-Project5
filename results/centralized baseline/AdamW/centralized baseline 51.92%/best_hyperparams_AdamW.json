@@ -1,0 +1,1 @@
+{"lr": 0.001, "weight_decay": 0.1, "eps": 0.0001, "val_loss": 3.7119, "val_acc": 17.57}

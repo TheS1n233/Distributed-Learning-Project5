@@ -1,0 +1,5 @@
+Experiment Configuration:
+Optimizer: AdamW
+Hyperparameters: {'lr': 0.0014142135623730952, 'weight_decay': 0.2, 'patience': 100}
+Number of epochs: 150
+Timestamp: 20250112-162210
